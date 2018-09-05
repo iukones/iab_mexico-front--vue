@@ -1,0 +1,35 @@
+{
+  "name": "iab_mexico-front--vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "firebase": "^5.4.1",
+    "swiper": "^4.3.5",
+    "v-tooltip": "^2.0.0-rc.33",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuefire": "^1.4.5"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-rc.10",
+    "@vue/cli-service": "^3.0.0-rc.10",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
